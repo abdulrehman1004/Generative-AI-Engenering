@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "google-gemeni"
+version = "0.1.0"
+description = "Learn about Google gemeni Model"
+authors = ["abdulrehman1004 <rehman.abdul008844@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+google-generativeai = "^0.8.3"
+python-dotenv = "^1.0.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
