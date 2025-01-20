@@ -62,7 +62,7 @@ embeddings = HuggingFaceEmbeddings(model_name='BAAI/bge-small-en-v1.5')
 
 qdrant_url = "https://d6717ddf-9785-4505-8417-d5a38b843fa8.us-east4-0.gcp.cloud.qdrant.io:6333/"
 # Ensure your Qdrant API key is set in environment variables
-qdrant_key = os.getenv("QDRANT_API_KEY")
+qdrant_key = os.getenv("QDRANT_API_KEY")    
 collection_name = "What_Are_AI_Agents"
 
 try:
