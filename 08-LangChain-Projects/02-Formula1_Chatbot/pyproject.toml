@@ -1,0 +1,25 @@
+[project]
+name = "02-formula1-chatbot"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "abdulrehman1004", email = "rehman.abdul008844@gmail.com" }
+]
+requires-python = ">=3.12"
+dependencies = [
+    "langchain>=0.3.15",
+    "langchain-community>=0.3.15",
+    "langchain-core>=0.3.31",
+    "langchain-google-genai>=2.0.9",
+    "langchain-huggingface>=0.1.2",
+    "langchain-qdrant>=0.2.0",
+    "qdrant-client>=1.13.0",
+]
+
+[project.scripts]
+02-formula1-chatbot = "02_formula1_chatbot:main"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"

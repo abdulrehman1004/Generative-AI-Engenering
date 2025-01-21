@@ -1,0 +1,17 @@
+[project]
+name = "conversation-rag"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "abdulrehman1004", email = "rehman.abdul008844@gmail.com" }
+]
+requires-python = ">=3.12"
+dependencies = []
+
+[project.scripts]
+conversation-rag = "conversation_rag:main"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"

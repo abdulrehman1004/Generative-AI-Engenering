@@ -44,7 +44,7 @@ def load_documents(urls):
     return documents
 
 
-def split_documents(documents, chunk_size=570, chunk_overlap=70):
+def split_documents(documents, chunk_size=1000, chunk_overlap=150):
     """Splits documents into smaller chunks."""
     splitter = RecursiveCharacterTextSplitter(
         chunk_size=chunk_size, chunk_overlap=chunk_overlap
